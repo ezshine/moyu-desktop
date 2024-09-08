@@ -1,0 +1,45 @@
+{
+  "build": {
+    "devPath": "../src",
+    "distDir": "../src",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "moyudesktop",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "systemTray": {
+      "iconPath": "icons/trayicon.png",
+      "iconAsTemplate": true
+    },
+    "windows": [
+      {
+        "title": "moyudesktop",
+        "width": 800,
+        "height": 600,
+        "url":"https://desktop.dashu.ai?from=desktop",
+        "fileDropEnabled": false
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.moyudesktop.app",
+      "icon": [
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ]
+    }
+  }
+}
