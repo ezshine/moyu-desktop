@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "npm tauri dev",
-    "build": "npm tauri build"
+    "dev": "tauri dev",
+    "tauri": "tauri"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1"
