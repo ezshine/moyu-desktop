@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tauri dev",
-    "tauri": "tauri"
+    "tauri": "npm tauri"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1"
